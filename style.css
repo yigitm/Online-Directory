@@ -19,8 +19,24 @@ body {
   background-color: #d65457;
 }
 
+.c-bg-secondary {
+  background-color: #e49c64;
+}
+
+.c-bg-gray {
+  background-color: #c9c0c0;
+}
+
+.c-bg-blue {
+  background-color: #90afd8;
+}
+
 .c-color-primary {
   color: #d65457;
+}
+
+.c-w-15 {
+  width: 15%;
 }
 
 .c-w-20 {

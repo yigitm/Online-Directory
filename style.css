@@ -1,0 +1,55 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav a,
+.c-font-retro {
+  font-family: "Orbitron", sans-serif;
+}
+
+.c-bg-primary {
+  background-color: #d65457;
+}
+
+.c-w-20 {
+  width: 15%;
+}
+
+.c-p-1 {
+  padding: 0 6rem;
+}
+
+.c-logo {
+  font-size: 2rem;
+  color: #f0f0ea;
+}
+
+.c-font-4 {
+  font-size: 2rem;
+}
+
+.c-bg-cover {
+  height: 100%;
+  background-image: linear-gradient(
+      rgba(47, 56, 63, 0.747),
+      rgba(233, 101, 215, 0.356)
+    ),
+    url(images/cover-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.c-opacity {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 768px) {
+}

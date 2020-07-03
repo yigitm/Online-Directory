@@ -3,7 +3,9 @@
 }
 
 body {
-  margin: 0;
+  max-width: 1024px;
+  min-width: 300px;
+  margin: auto;
   padding: 0;
   box-sizing: border-box;
 }
@@ -15,6 +17,10 @@ body {
 
 .c-bg-primary {
   background-color: #d65457;
+}
+
+.c-color-primary {
+  color: #d65457;
 }
 
 .c-w-20 {
@@ -48,7 +54,7 @@ body {
 }
 
 .c-opacity {
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 @media screen and (min-width: 768px) {

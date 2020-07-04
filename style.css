@@ -66,12 +66,12 @@ footer a {
   font-size: 0.2rem;
 }
 
-.c-font-09 {
-  font-size: 0.9rem;
+.c-font-2 {
+  font-size: 2rem;
 }
 
-.c-font-4 {
-  font-size: 2rem;
+.c-font-09 {
+  font-size: 0.9rem;
 }
 
 .c-bg-cover {
@@ -118,6 +118,14 @@ footer a {
 @media screen and (min-width: 768px) {
   .c-bg-cover {
     min-height: 50vh;
+  }
+
+  .c-font-3 {
+    font-size: 3rem;
+  }
+
+  .c-font-1p {
+    font-size: 1.5rem;
   }
 }
 

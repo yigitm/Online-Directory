@@ -62,15 +62,15 @@
           search results: found 7 game(s)
         </h1>
 
-        <div class="d-flex">
-          <div class="bg-light p-2 rounded-left">
-            <form class="form-row mr-n5">
-              <div class="form-group col-md-4">
+        <div class="d-flex flex-column flex-md-row">
+          <div class="bg-light p-5 rounded-left">
+            <form class="form-row">
+              <div class="form-group col-12 col-md-4">
                 <label class="text-dark text-capitalize">game name</label>
                 <input type="text" class="form-control" />
               </div>
 
-              <div class="form-group col-md-4">
+              <div class="form-group col-12 col-md-4">
                 <label class="text-dark text-capitalize">game type</label>
                 <input type="text" class="form-control" />
               </div>
@@ -79,7 +79,7 @@
                 <label class="text-dark text-capitalize">year</label>
                 <div class="dropdown">
                   <a
-                    class="btn btn-secondary text-capitalize dropdown-toggle"
+                    class="btn btn-link text-capitalize dropdown-toggle"
                     href="#"
                     role="button"
                     id="dropdownMenuLink"
@@ -87,7 +87,7 @@
                     aria-haspopup="true"
                     aria-expanded="false"
                   >
-                    year
+                    select
                   </a>
 
                   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -111,7 +111,7 @@
               type="button"
               class="btn btn-warning text-capitalize text-white"
             >
-              filter
+              clear filter
             </button>
           </div>
         </div>
@@ -179,12 +179,6 @@
         </div>
       </div>
     </div>
-
-    <!-- filter by name, year, type: 
-    <a class="dropdown-item" href="#">80's</a>
-    <a class="dropdown-item" href="#">90's</a>
-    <a class="dropdown-item" href="#">early - 00's</a> 
-    -->
 
     <article class="row">
       <div class="col-12 my-4 c-bg-secondary">

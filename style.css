@@ -75,7 +75,7 @@ footer a {
 }
 
 .c-bg-cover {
-  height: 100%;
+  min-height: 100vh;
   background-image: linear-gradient(
       rgba(47, 56, 63, 0.747),
       rgba(233, 101, 215, 0.356)
@@ -84,7 +84,7 @@ footer a {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 
 .c-opacity {
@@ -116,6 +116,9 @@ footer a {
 }
 
 @media screen and (min-width: 768px) {
+  .c-bg-cover {
+    min-height: 50vh;
+  }
 }
 
 @media screen and (min-width: 1024px) {

@@ -25,12 +25,12 @@
   </head>
   <body>
     <nav
-      class="nav flex-column align-items-center justify-content-center c-bg-primary"
+      class="row c-bg-primary"
     >
-      <div class="d-flex justify-content-center">
+      <div class="col-12 col-md-8 d-block text-center text-md-left">
         <img
           src="images/logo.jpg"
-          class="d-inline-block align-top rounded-circle p-2 c-w-15"
+          class="d-inline-block rounded-circle p-2 c-w-15"
           alt="image"
         />
         <a
@@ -39,7 +39,7 @@
           >Retrocolic</a
         >
       </div>
-      <div class="d-flex justify-content-center">
+      <div class="col-12 col-md-4 d-block text-center text-md-right mx-auto my-auto">
         <a class="px-2 text-white" href="#"
           ><i class="fas fa-search"></i> Games</a
         >
@@ -47,27 +47,27 @@
         <a class="px-2 text-white" href="#">Contact</a>
       </div>
     </nav>
-    <div class="container-fluid mw-100 c-bg-cover">
-      <div
-        class="d-flex flex-column align-items-center justify-content-center mx-3"
-      >
-        <h5
-          class="position-sticky mt-4 text-white text-center font-weight-bolder c-font-retro"
+    <div class="row">
+      <div class="col-12">
+        <div class="row flex-fill c-bg-cover">
+        <h1
+          class="col-12 p-0 mt-5 text-white text-center font-weight-bolder c-font-retro"
         >
           Stream <i class="fab fa-cloudsmith"></i> For Retro Gaming
-        </h5>
+        </h1>
 
-        <form
-          class="mt-3 form-row align-items-center justify-content-center bg-light rounded c-opacity"
+        <div class="col-12 mt-5 text-center">
+          <form
+          class="d-block w-75 h-50 mx-auto mt-5 p-2 form-row bg-light rounded c-opacity"
         >
-          <div class="form-group py-1 mx-2">
+          <div class="form-group">
             <h6
-              class="px-5 text-dark text-center text-uppercase font-weight-bold"
+              class="my-5 text-dark text-center text-uppercase font-weight-bold"
             >
               Search for games:
             </h6>
-            <div class="d-flex flex-column">
-              <input type="text" class="form-control" />
+            <div class="d-block my-5">
+              <input type="text" class="form-control my-2" />
               <a
                 type="submit"
                 class="btn btn-primary btn-block border-0 c-bg-primary "
@@ -78,7 +78,9 @@
             </div>
           </div>
         </form>
-        <a href="#" class="btn btn-light my-4 c-opacity">How it Works</a>
+        <a href="#" class="btn btn-light btn-lg my-5 c-opacity">How it Works</a>
+        </div>
+      </div>
       </div>
     </div>
 

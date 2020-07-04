@@ -10,14 +10,10 @@ body {
   box-sizing: border-box;
 }
 
-.nav a,
+nav a,
 footer a,
 .c-font-retro {
   font-family: "Orbitron", sans-serif;
-}
-
-footer a {
-  color: #fff;
 }
 
 .c-bg-primary {
@@ -57,11 +53,6 @@ footer a {
   padding-bottom: 6rem;
 }
 
-.c-logo {
-  font-size: 2rem;
-  color: #f0f0ea;
-}
-
 .c-font-1 {
   font-size: 0.2rem;
 }
@@ -72,6 +63,11 @@ footer a {
 
 .c-font-09 {
   font-size: 0.9rem;
+}
+
+.c-logo {
+  font-size: 2rem;
+  color: #f0f0ea;
 }
 
 .c-bg-cover {
@@ -116,16 +112,17 @@ footer a {
 }
 
 @media screen and (min-width: 768px) {
-  .c-bg-cover {
-    min-height: 50vh;
-  }
-
   .c-font-3 {
     font-size: 3rem;
   }
 
   .c-font-1p {
     font-size: 1.5rem;
+  }
+
+  .c-logo {
+    font-size: 2rem;
+    color: #f0f0ea;
   }
 }
 

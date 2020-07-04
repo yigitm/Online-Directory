@@ -27,29 +27,30 @@
     <nav
       class="row c-bg-primary"
     >
-      <div class="col-12 col-md-7 d-block text-center text-md-left">
+      <div class="col-12 col-md-6 d-block text-center text-md-left">
         <img
           src="images/logo.jpg"
           class="d-inline-block rounded-circle p-2 c-w-15"
           alt="image"
         />
         <a
-          class="my-auto text-lowercase text-white font-weight-lighter c-logo c-font-retro"
-          href=""
+          class="my-auto text-lowercase text-white text-decoration-none font-weight-lighter c-logo c-font-retro"
+          href="contact.html"
           >Retrocolic</a
         >
       </div>
-      <div class="col-12 col-md-5 d-block text-center text-nowrap text-md-right mx-auto my-auto">
-        <a class="px-2 text-white c-font-1p" href="#"
+      <div class="col-12 col-md-6 d-block text-center text-nowrap text-md-right mx-auto my-auto">
+        <a class="px-1 text-white text-decoration-none c-font-1p" href="games.html"
           ><i class="fas fa-search"></i> Games</a
         >
-        <a class="px-2 text-white c-font-1p" href="#">Sign Up</a>
-        <a class="px-2 text-white c-font-1p" href="#">Contact</a>
+        <a class="px-1 text-white text-decoration-none c-font-1p" href="sign-up.html">Sign Up</a>
+        <a class="px-1 text-white text-decoration-none c-font-1p" href="contact.html">Contact</a>
       </div>
     </nav>
+
     <div class="row">
       <div class="col-12">
-        <div class="row flex-fill c-bg-cover">
+        <div class="row flex-fill c-bg-cover c-bg-cover-games">
         <h1
           class="col-12 p-0 mt-5 text-white text-center font-weight-bolder c-font-retro"
         >
@@ -58,33 +59,43 @@
 
         <div class="col-12 mt-5 text-center">
           <form
-          class="d-block w-100 h-md-auto mx-1 mt-5 p-1 form-row bg-light rounded c-opacity"
+          class="d-block w-100 h-md-auto mx-auto mt-5 p-1 form-row bg-light rounded c-opacity"
         >
           <div class="form-group">
             <h3
-              class="text-dark text-center text-uppercase font-weight-bold"
+              class="text-dark text-center text-capitalize font-weight-bold"
             >
-              Search for games:
+              filter by name, year, type: 
             </h3>
-            <div class="d-block">
-              <input type="text" class="form-control form-control-lg my-2" />
-              <a
-                type="submit"
-                class="btn btn-primary btn-lg btn-block border-0 c-bg-primary "
-                href="games.html"
-              >
-                Search
-              </a>
+                <div class="form-row">
+    <div class="col-5">
+      <input type="text" class="form-control text-capitalize" placeholder="game Name">
+    </div>
+    <div class="col-2">
+      <div class="dropdown">
+  <button class="btn btn-block btn-danger dropdown-toggle text-capitalize" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    year
+  </button>
+  <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">80's</a>
+    <a class="dropdown-item" href="#">90's</a>
+    <a class="dropdown-item" href="#">early - 00's</a>
+  </div>
+</div>
+    </div>
+    <div class="col-5">
+      <input type="text" class="form-control text-capitalize" placeholder="type">
+    </div>
+              </div>
+            <button type="button" class="btn btn-lg btn-block my-2 c-bg-primary">Block level button</button>
             </div>
-          </div>
-        </form>
-        <a href="#" class="btn btn-light btn-lg my-5 c-opacity">How it Works</a>
         </div>
-      </div>
+
+        </div>
       </div>
     </div>
 
-    <article class="row">
+    <article class="row" id="how-it-works">
       <h1
         class="col-12 my-5 display-5 text-uppercase text-center c-color-primary"
       >
@@ -197,15 +208,15 @@
         />
        </div>
         
-        <ul class="c-footer-top">
-          <a class="c-font-1" href="#">home</a>
-          <a class="c-font-1" href="#">search</a>
-          <a class="c-font-1" href="#">about us</a>
-          <a class="c-font-1" href="#">advertise</a>
-          <a class="c-font-1" href="#">facebook</a>
-          <a class="c-font-1" href="#">twitter</a>
-          <a class="c-font-1" href="#">blog</a>
-          <a class="c-font-1" href="#">google+</a>
+        <ul class="c-footer-top text-decoration-none">
+         <li><a class="c-font-1 text-decoration-none text-white" href="#">home</a></li>
+         <li><a class="c-font-1 text-decoration-none text-white" href="#">search</a></li>
+         <li><a class="c-font-1 text-decoration-none text-white" href="#">about us</a></li>
+         <li><a class="c-font-1 text-decoration-none text-white" href="#">advertise</a></li>
+         <li><a class="c-font-1 text-decoration-none text-white" href="#">facebook</a></li>
+         <li><a class="c-font-1 text-decoration-none text-white" href="#">twitter</a></li>
+         <li><a class="c-font-1 text-decoration-none text-white" href="#">blog</a></li>
+         <li><a class="c-font-1 text-decoration-none text-white" href="#">google+</a></li>
         </ul>
      </div>
         
@@ -216,12 +227,12 @@
             <form class="form-inline justify-content-center">
               <div class="form-group mb-2">
                 <input
-                  type="password"
-                  class="form-control h-25"
+                  type="email"
+                  class="form-control mx-auto text-center h-25"
                   placeholder="you@example.com"
                 />
               </div>
-              <button type="submit" class="btn btn-secondary btn-sm px-4 mb-2">
+              <button type="submit" class="btn btn-block btn-secondary btn-sm px-4 mb-2">
                 Send
               </button>
             </form>

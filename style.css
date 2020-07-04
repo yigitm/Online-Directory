@@ -9,13 +9,54 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+/* section specific styles */
 nav a,
 footer a,
 .c-font-retro {
   font-family: "Orbitron", sans-serif;
 }
 
+.c-logo {
+  color: #f0f0ea;
+}
+
+.c-bg-cover {
+  min-height: 100vh;
+  background-image: linear-gradient(
+      rgba(47, 56, 63, 0.747),
+      rgba(233, 101, 215, 0.356)
+    ),
+    url(images/cover-img.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.c-footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-left: 0.5rem;
+  padding: 1%;
+  align-items: center;
+  justify-content: space-around;
+  text-transform: uppercase;
+  list-style: none;
+  border-top: solid 1px rgb(165, 155, 155);
+  border-bottom: solid 1px rgb(165, 155, 155);
+  background-color: #333;
+}
+
+.c-footer-icon {
+  left: 48.3%;
+  bottom: 14%;
+}
+
+.fa-map-marker-alt {
+  font-size: 2rem;
+}
+/* global use styles */
 .c-bg-primary {
   background-color: #d65457;
 }
@@ -65,50 +106,8 @@ footer a,
   font-size: 0.9rem;
 }
 
-.c-logo {
-  font-size: 2rem;
-  color: #f0f0ea;
-}
-
-.c-bg-cover {
-  min-height: 100vh;
-  background-image: linear-gradient(
-      rgba(47, 56, 63, 0.747),
-      rgba(233, 101, 215, 0.356)
-    ),
-    url(images/cover-img.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-
 .c-opacity {
   opacity: 0.9;
-}
-
-.c-footer-top {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-  margin-left: 0.5rem;
-  padding: 1%;
-  align-items: center;
-  justify-content: space-around;
-  text-transform: uppercase;
-  list-style: none;
-  border-top: solid 1px rgb(165, 155, 155);
-  border-bottom: solid 1px rgb(165, 155, 155);
-  background-color: #333;
-}
-
-.c-footer-icon {
-  left: 48.3%;
-  bottom: 14%;
-}
-
-.fa-map-marker-alt {
-  font-size: 2rem;
 }
 
 .c-effect:hover {
@@ -124,6 +123,10 @@ footer a,
 }
 
 @media screen and (min-width: 768px) {
+  .c-bg-cover {
+    min-height: 80vh;
+  }
+
   .c-font-3 {
     font-size: 3rem;
   }
@@ -136,7 +139,4 @@ footer a,
     font-size: 2rem;
     color: #f0f0ea;
   }
-}
-
-@media screen and (min-width: 1024px) {
 }

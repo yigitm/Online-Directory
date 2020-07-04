@@ -24,9 +24,7 @@
     <title>Retrocolic</title>
   </head>
   <body>
-    <nav
-      class="row c-bg-primary"
-    >
+    <header class="row c-bg-primary">
       <div class="col-12 col-md-6 d-block text-center text-md-left">
         <img
           src="images/logo.jpg"
@@ -35,102 +33,158 @@
         />
         <a
           class="my-auto text-lowercase text-white text-decoration-none font-weight-lighter c-logo c-font-retro"
-          href="contact.html"
+          href="#"
           >Retrocolic</a
         >
       </div>
-      <div class="col-12 col-md-6 d-block text-center text-nowrap text-md-right mx-auto my-auto">
-        <a class="px-1 text-white text-decoration-none c-font-1p" href="games.html"
+      <nav
+        class="col-12 col-md-6 d-block text-center text-nowrap text-md-right mx-auto my-auto"
+      >
+        <a
+          class="px-1 text-white text-decoration-none c-font-1p"
+          href="games.html"
           ><i class="fas fa-search"></i> Games</a
         >
-        <a class="px-1 text-white text-decoration-none c-font-1p" href="#">Sign Up</a>
-        <a class="px-1 text-white text-decoration-none c-font-1p" href="#">Contact</a>
-      </div>
-    </nav>
-
-    <div class="row">
-      <div class="col-12">
-        <div class="row flex-fill c-bg-cover">
-        <h1
-          class="col-12 p-0 mt-5 text-white text-center font-weight-bolder c-font-retro"
+        <a class="px-1 text-white text-decoration-none c-font-1p" href="#"
+          >Sign Up</a
         >
-          Stream <i class="fab fa-cloudsmith"></i> For Retro Gaming
+        <a class="px-1 text-white text-decoration-none c-font-1p" href="#"
+          >Contact</a
+        >
+      </nav>
+    </header>
+
+    <div class="row c-bg-cover">
+      <div
+        class="col-12 d-flex flex-column align-items-center justify-content-center"
+      >
+        <h1 class="mt-5 text-capitalize text-white text-center">
+          search results: found 7 game(s)
         </h1>
 
-        <div class="col-12 mt-n5">
-          
-          <h2 class="text-capitalize text-white text-center">search results found 7 game(s)</h2>
-
-<div class="card-deck c-opacity">
-  <div class="card c-effect-1">
-    <iframe class="embed-responsive-item border-0" src="https://www.youtube.com/embed/3LWrjeOHgjY"></iframe>
-    <div class="card-body">
-      <h5 class="card-title">MDK</h5>
-      <p class="card-text"> <q>MDK</q> is a video game developed by Shiny Entertainment. The game tells the story of Kurt Hectic, a janitor who reluctantly must attempt to save Earth from an alien invasion of gigantic strip mining city-sized vehicles named "Minecrawlers". </p>
-      <p class="card-text"><small class="text-muted">Published in 1997</small></p>
-      <a href="detail.html" class="btn btn-danger">More...</a>
-    </div>
-  </div>
-  <div class="card c-effect-1">
-    <iframe class="embed-responsive-item border-0" src="https://www.youtube.com/embed/pQMEvi0OZ_c"></iframe>
-    <div class="card-body">
-      <h5 class="card-title">Startcraft</h5>
-      <p class="card-text">StarCraft is a 1998 military science fiction real-time strategy game developed and published by Blizzard Entertainment for Microsoft Windows.Blizzard started work on the game shortly after Warcraft II, another real-time strategy game, was released in 1995. </p>
-      <p class="card-text"><small class="text-muted">Published in 1998</small></p>
-      <a href="detail.html" class="btn btn-danger">More...</a>
-    </div>
-  </div>
-  <div class="card c-effect-1">
-    <iframe class="embed-responsive-item border-0" src="https://www.youtube.com/embed/sPifljWcXHo"></iframe>
-    <div class="card-body">
-      <h5 class="card-title">Doom</h5>
-      <p class="card-text"><q>Doom</q> is a first-person (FPS) game developed by id Software for MS-DOS.Along with its predecessor Wolfenstein 3D, Doom helped define the FPS genre and inspired numerous similar games, known as Doom clones.</p>
-      
-      <p class="card-text"><small class="text-muted">Published in 1993</small></p>
-      <a href="detail.html" class="btn btn-danger">More...</a>
-    </div>
-  </div>
-</div>
-     
-        </div>
-
-        <div class="col-12 text-center">
-          <form
-          class="d-block w-100 h-md-auto mx-auto mt-n5 p-1 form-row bg-light rounded c-opacity"
-        >
-          <div class="form-group">
-            <h3
-              class="text-dark text-center text-capitalize font-weight-bold"
-            >
-              filter by name, year, type: 
-            </h3>
-                <div class="form-row">
-    <div class="col-5">
-      <input type="text" class="form-control text-capitalize" placeholder="game Name">
-    </div>
-    <div class="col-2">
-      <div class="dropdown">
-  <button class="btn btn-block btn-danger dropdown-toggle text-capitalize" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    year
-  </button>
-  <div class="dropdown-menu text-center" aria-labelledby="dropdownMenuButton">
-    <a class="dropdown-item" href="#">80's</a>
-    <a class="dropdown-item" href="#">90's</a>
-    <a class="dropdown-item" href="#">early - 00's</a>
-  </div>
-</div>
-    </div>
-    <div class="col-5">
-      <input type="text" class="form-control text-capitalize" placeholder="type">
-    </div>
+        <div class="d-flex">
+          <div class="bg-light p-2 rounded-left">
+            <form class="form-row mr-n5">
+              <div class="form-group col-md-4">
+                <label class="text-dark text-capitalize">game name</label>
+                <input type="text" class="form-control" />
               </div>
-            <button type="button" class="btn btn-lg btn-block my-2 c-bg-primary">Block level button</button>
-            </div>
+
+              <div class="form-group col-md-4">
+                <label class="text-dark text-capitalize">game type</label>
+                <input type="text" class="form-control" />
+              </div>
+
+              <div class="btn-group col-md-4 d-flex flex-column">
+                <label class="text-dark text-capitalize">year</label>
+                <div class="dropdown">
+                  <a
+                    class="btn btn-secondary text-capitalize dropdown-toggle"
+                    href="#"
+                    role="button"
+                    id="dropdownMenuLink"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    year
+                  </a>
+
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">80's</a>
+                    <a class="dropdown-item" href="#">90's</a>
+                    <a class="dropdown-item" href="#">early 00's</a>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="btn-group" role="group">
+            <button
+              type="button"
+              class="btn btn-danger text-capitalize text-white"
+            >
+              search
+            </button>
+            <button
+              type="button"
+              class="btn btn-warning text-capitalize text-white"
+            >
+              filter
+            </button>
+          </div>
         </div>
 
+        <div class="card-deck mt-5 mb-5 c-opacity">
+          <div class="card border-0 c-effect-1">
+            <iframe
+              class="embed-responsive-item border-0"
+              src="https://www.youtube.com/embed/3LWrjeOHgjY"
+            ></iframe>
+            <div class="card-body">
+              <h5 class="card-title">MDK</h5>
+              <p class="card-text">
+                <q>MDK</q> is a video game developed by Shiny Entertainment. The
+                game tells the story of Kurt Hectic, a janitor who reluctantly
+                must attempt to save Earth from an alien invasion of gigantic
+                strip mining city-sized vehicles named "Minecrawlers".
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Published in 1997</small>
+              </p>
+              <a href="detail.html" class="btn btn-danger">More...</a>
+            </div>
+          </div>
+          <div class="card border-0 c-effect-1">
+            <iframe
+              class="embed-responsive-item border-0"
+              src="https://www.youtube.com/embed/pQMEvi0OZ_c"
+            ></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Startcraft</h5>
+              <p class="card-text">
+                StarCraft is a 1998 military science fiction real-time strategy
+                game developed and published by Blizzard Entertainment for
+                Microsoft Windows.Blizzard started work on the game shortly
+                after Warcraft II, another real-time strategy game, was released
+                in 1995.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Published in 1998</small>
+              </p>
+              <a href="detail.html" class="btn btn-danger">More...</a>
+            </div>
+          </div>
+          <div class="card border-0 c-effect-1">
+            <iframe
+              class="embed-responsive-item border-0"
+              src="https://www.youtube.com/embed/sPifljWcXHo"
+            ></iframe>
+            <div class="card-body">
+              <h5 class="card-title">Doom</h5>
+              <p class="card-text">
+                <q>Doom</q> is a first-person (FPS) game developed by id
+                Software for MS-DOS.Along with its predecessor Wolfenstein 3D,
+                Doom helped define the FPS genre and inspired numerous similar
+                games, known as Doom clones.
+              </p>
+
+              <p class="card-text">
+                <small class="text-muted">Published in 1993</small>
+              </p>
+              <a href="detail.html" class="btn btn-danger">More...</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- filter by name, year, type: 
+    <a class="dropdown-item" href="#">80's</a>
+    <a class="dropdown-item" href="#">90's</a>
+    <a class="dropdown-item" href="#">early - 00's</a> 
+    -->
 
     <article class="row">
       <div class="col-12 my-4 c-bg-secondary">
@@ -146,14 +200,18 @@
               <i class="fas fa-sort-amount-up"></i><br />
               Retro Game Archive
             </h5>
-            <p class="c-font-1p">You find numerous of 80's 90's Pc and Video Games.</p>
-            <a href="#" class="btn btn-light my-4 c-opacity c-font-1p">Find Games</a>
+            <p class="c-font-1p">
+              You find numerous of 80's 90's Pc and Video Games.
+            </p>
+            <a href="#" class="btn btn-light my-4 c-opacity c-font-1p"
+              >Find Games</a
+            >
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 my-4 c-bg-gray">
+      <div class="col-12 col-md-6 my-4 c-bg-gray c-opacity c-effect">
         <div class="media align-items-center">
-          <div class="media-body text-center c-opacity">
+          <div class="media-body text-center y">
             <h5 class="mt-0 mb-1">Portable & Compatible Mobile Experience</h5>
             <p>Experience retro gaming with all mobile devices.</p>
             <a href="#" class="btn btn-light my-4 c-opacity">Play Games</a>
@@ -165,7 +223,7 @@
           />
         </div>
       </div>
-      <div class="col-12 col-md-6 my-4 c-bg-blue c-opacity">
+      <div class="col-12 col-md-6 my-4 c-bg-blue c-opacity c-effect">
         <div class="media align-items-center">
           <img
             src="images/payment.png"
@@ -184,29 +242,63 @@
     </article>
 
     <footer class="row bg-dark">
-     <div class="col-12 d-none d-md-block position-relative">
-       <div class="position-absolute c-footer-icon">
-         <img
-          src="images/logo.jpg"
-          class="rounded-circle border border-danger c-w-10 mx-auto"
-          alt="image"
-        />
-       </div>
-        
+      <div class="col-12 d-none d-md-block position-relative">
+        <div class="position-absolute c-footer-icon">
+          <img
+            src="images/logo.jpg"
+            class="rounded-circle border border-danger c-w-10 mx-auto"
+            alt="image"
+          />
+        </div>
+
         <ul class="c-footer-top text-decoration-none">
-         <li><a class="c-font-1 text-decoration-none text-white" href="#">home</a></li>
-         <li><a class="c-font-1 text-decoration-none text-white" href="#">search</a></li>
-         <li><a class="c-font-1 text-decoration-none text-white" href="#">about us</a></li>
-         <li><a class="c-font-1 text-decoration-none text-white" href="#">advertise</a></li>
-         <li><a class="c-font-1 text-decoration-none text-white" href="#">facebook</a></li>
-         <li><a class="c-font-1 text-decoration-none text-white" href="#">twitter</a></li>
-         <li><a class="c-font-1 text-decoration-none text-white" href="#">blog</a></li>
-         <li><a class="c-font-1 text-decoration-none text-white" href="#">google+</a></li>
+          <li>
+            <a class="c-font-1 text-decoration-none text-white" href="#"
+              >home</a
+            >
+          </li>
+          <li>
+            <a class="c-font-1 text-decoration-none text-white" href="#"
+              >search</a
+            >
+          </li>
+          <li>
+            <a class="c-font-1 text-decoration-none text-white" href="#"
+              >about us</a
+            >
+          </li>
+          <li>
+            <a class="c-font-1 text-decoration-none text-white" href="#"
+              >advertise</a
+            >
+          </li>
+          <li>
+            <a class="c-font-1 text-decoration-none text-white" href="#"
+              >facebook</a
+            >
+          </li>
+          <li>
+            <a class="c-font-1 text-decoration-none text-white" href="#"
+              >twitter</a
+            >
+          </li>
+          <li>
+            <a class="c-font-1 text-decoration-none text-white" href="#"
+              >blog</a
+            >
+          </li>
+          <li>
+            <a class="c-font-1 text-decoration-none text-white" href="#"
+              >google+</a
+            >
+          </li>
         </ul>
-     </div>
-        
-     <div class="col-12">
-         <div class="d-flex flex-column flex-md-row align-items-baseline mt-5 text-center">
+      </div>
+
+      <div class="col-12">
+        <div
+          class="d-flex flex-column flex-md-row align-items-baseline mt-5 text-center"
+        >
           <div class="w-100">
             <h6 class="text-white text-uppercase">subscribe</h6>
             <form class="form-inline justify-content-center">
@@ -217,7 +309,10 @@
                   placeholder="you@example.com"
                 />
               </div>
-              <button type="submit" class="btn btn-block btn-secondary btn-sm px-4 mb-2">
+              <button
+                type="submit"
+                class="btn btn-lg btn-secondary btn-sm px-4 mb-2"
+              >
                 Send
               </button>
             </form>
@@ -234,38 +329,56 @@
             <p class="text-muted font-smaller c-font-09">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error
               temporibus quisquam, libero explicabo sit, omnis inventore in<br />
-              <a class="c-color-primary" href="#">learn more...</span>
+              <span class="c-color-primary">learn more...</span>
             </p>
           </div>
         </div>
-     </div>
-      
-     <div class="col-12 d-flex flex-column flex-md-row align-items-center justify-content-between c-bg-gray">
-      <ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link text-muted" href="#"><i class="fab fa-facebook-f"></i></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-muted" href="#"><i class="fab fa-twitter"></i></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-muted" href="#"><i class="fas fa-blog"></i></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-muted" href="#"><i class="fab fa-google-plus-g"></i></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-muted" href="#"><i class="fab fa-instagram"></i></a>
-  </li>
-</ul>
+      </div>
 
-<p class="w-50 my-auto text-center text-muted c-font-1"><i class="far fa-copyright"></i> <span class="text-uppercase">2020 all rights reserved powered by</span>  http://linkedin.com/in/yigitmersin - https://github.com/yigitm</p>
-     </div>
+      <div
+        class="col-12 d-flex flex-column flex-md-row align-items-center justify-content-between c-bg-gray"
+      >
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#"
+              ><i class="fas fa-blog"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#"
+              ><i class="fab fa-google-plus-g"></i
+            ></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-muted" href="#"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </li>
+        </ul>
+
+        <p class="w-50 my-auto text-center text-muted c-font-1">
+          <i class="far fa-copyright"></i>
+          <span class="text-uppercase"
+            >2020 all rights reserved powered by</span
+          >
+          http://linkedin.com/in/yigitmersin - https://github.com/yigitm
+        </p>
+      </div>
     </footer>
     <!-- Font-Awsome -->
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS --> 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

@@ -9,6 +9,7 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
 /* section specific styles */
 nav a,
 footer a,
@@ -22,7 +23,8 @@ footer a,
 
 .c-bg-cover {
   min-height: 100vh;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(47, 56, 63, 0.747),
       rgba(233, 101, 215, 0.356)
     ),
@@ -56,6 +58,7 @@ footer a,
 .fa-map-marker-alt {
   font-size: 2rem;
 }
+
 /* global use styles */
 .c-bg-primary {
   background-color: #d65457;

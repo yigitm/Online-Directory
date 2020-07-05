@@ -30,7 +30,7 @@ This landing page is designed & built with a combination of Bootstrap 4 framewor
 
 ## Live Demo :
 
-[Project Live Link](https://raw.githack.com/yigitm/Online-Directory/feature-landing-page/index.htmlß)
+[Project Live Link](https://raw.githack.com/yigitm/Online-Directory/feature-landing-page/index.html)
 
 ## Getting Started
 

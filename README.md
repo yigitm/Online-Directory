@@ -8,7 +8,7 @@ This project consists of building a mobile first design web site of an [Online D
 
 The goal is to make a mobile first, responsive web site inspiring from the design by Mathew Njuguna and others on Behance.
 
-You can check the design from this [link](https://raw.githack.com/yigitm/Online-Directory/feature-landing-page/index.html)
+You can check the design from this [link](https://www.behance.net/gallery/25563385/PatashuleKE)
 
 This landing page is designed & built with a combination of Bootstrap 4 framework and HTML & CSS features.
 

@@ -17,7 +17,7 @@ This landing page is designed & built with a combination of Bootstrap 4 framewor
 - This project covers the following Bootstrap 4, HTML and CSS3 concepts.
 - Main responsive layout is created with Bootstrap.
 - Except the "footer-top" section; I focused to use Bootstrap 4 CSS classes.
-- Two main breakpoint is used for reponsive design: min-width: 768px. & min-width: 1024px.
+- Media Queries are used for reponsive design layout.
 - Fixed, relative, absolute positionings are used for some positioning needs.
 
 ## Built With :

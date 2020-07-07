@@ -44,10 +44,9 @@ body {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2rem;
-  margin-left: 0.5rem;
-  padding: 1%;
+  padding: 0.5%;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   text-transform: uppercase;
   list-style: none;
   border-top: solid 1px rgb(165, 155, 155);
@@ -56,8 +55,8 @@ body {
 }
 
 .c-footer-icon {
-  left: 48.3%;
-  bottom: 14%;
+  left: 47.8%;
+  bottom: 9%;
 }
 
 .fa-map-marker-alt {
@@ -70,6 +69,10 @@ body {
 
 .c-bg-secondary {
   background-color: #e49c64;
+}
+
+.c-bg-dark {
+  background-color: #333;
 }
 
 .c-bg-gray {
@@ -95,7 +98,7 @@ body {
 }
 
 .c-w-10 {
-  width: 10%;
+  width: 3rem;
 }
 
 .c-w-15 {

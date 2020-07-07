@@ -11,14 +11,16 @@ body {
 }
 
 /* section specific styles */
-nav a,
-footer a,
-.c-font-retro {
-  font-family: "Orbitron", sans-serif;
+.c-font-sm-1p {
+  font-size: 1.5rem;
 }
 
-.c-logo {
-  color: #f0f0ea;
+.c-font-sm-2 {
+  font-size: 2rem;
+}
+
+.c-font-sm-3 {
+  font-size: 3rem;
 }
 
 .c-w-btn {
@@ -61,7 +63,6 @@ footer a,
 .fa-map-marker-alt {
   font-size: 2rem;
 }
-
 /* global use styles */
 .c-bg-primary {
   background-color: #d65457;
@@ -87,6 +88,10 @@ footer a,
   margin: 0 auto;
   padding-top: 1rem;
   width: 90%;
+}
+
+.c-w-5 {
+  width: 5%;
 }
 
 .c-w-10 {
@@ -139,12 +144,16 @@ footer a,
     min-height: 80vh;
   }
 
-  .c-font-3 {
-    font-size: 3rem;
+  .c-font-md-1 {
+    font-size: 1rem;
   }
 
-  .c-font-1p {
-    font-size: 1.5rem;
+  .c-font-md-2 {
+    font-size: 2rem;
+  }
+
+  .c-font-md-1n {
+    font-size: 0.8rem;
   }
 
   .c-logo {

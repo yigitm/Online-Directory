@@ -21,10 +21,13 @@ footer a,
   color: #f0f0ea;
 }
 
+.c-w-btn {
+  max-width: 50%;
+}
+
 .c-bg-cover {
   min-height: 100vh;
-  background-image:
-    linear-gradient(
+  background-image: linear-gradient(
       rgba(47, 56, 63, 0.747),
       rgba(233, 101, 215, 0.356)
     ),
@@ -78,6 +81,12 @@ footer a,
 
 .c-color-primary {
   color: #d65457;
+}
+
+.c-align {
+  margin: 0 auto;
+  padding-top: 1rem;
+  width: 90%;
 }
 
 .c-w-10 {

@@ -12,7 +12,7 @@ body {
 
 /* section specific styles */
 
-.c-bg-search {
+.c-bg-light-opacity {
   opacity: 0.7;
   filter: alpha(opacity=50%);
   background-color: rgb(247, 243, 243);

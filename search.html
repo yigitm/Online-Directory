@@ -63,134 +63,196 @@
       </nav>
     </header>
 
-    <main class="row bg-white min-vh-100">
+    <main class="row min-vh-100 mb-5 bg-white ">
       <div
-        class="col-12 d-flex flex-column align-items-start justify-content-start c-bg-light-opacity-1"
+        class="col-12 d-flex flex-column align-items-start justify-content-start mt-5 mb-5 c-bg-light-opacity-1"
       >
-        <div class="py-5 px-0 mt-5">
-          <h5 class="text-center text-uppercase">
+        <div class="p-0 mt-5">
+          <h3 class="text-center text-capitalize text-muted">
             filter by house type, flat, room, neighbourhood, state, country:
-          </h5>
-          <form class="px-5 py-5">
-            <div class="row">
-              <div class="col-2 mr-n4">
-                <label class="text-uppercase">house type:*</label>
-                <input type="text" class="form-control" />
-              </div>
-              <div class="col-1 mr-3">
-                <label class="text-uppercase">country:</label>
-                <div class="btn-group text-capitalize">
-                  <button
-                    type="button"
-                    class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">tr</a>
-                    <a class="dropdown-item" href="#">gr</a>
-                    <a class="dropdown-item" href="#">ge</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-1 mr-3">
-                <label class="text-uppercase">flat:</label>
-                <div class="btn-group text-capitalize">
-                  <button
-                    type="button"
-                    class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">single</a>
-                    <a class="dropdown-item" href="#">doublex</a>
-                    <a class="dropdown-item" href="#">triplex</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-1 mr-3">
-                <label class="text-uppercase">room:</label>
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">1 to 5</a>
-                    <a class="dropdown-item" href="#">5 to 10</a>
-                    <a class="dropdown-item" href="#">10+</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-1 mr-3">
-                <label class="text-uppercase">facilities:</label>
-                <div class="btn-group text-capitalize">
-                  <button
-                    type="button"
-                    class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">terrace</a>
-                    <a class="dropdown-item" href="#">pool</a>
-                    <a class="dropdown-item" href="#">garage</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-1 mr-4">
-                <label class="text-uppercase">state:</label>
-                <div class="btn-group text-capitalize">
-                  <button
-                    type="button"
-                    class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
-                    data-toggle="dropdown"
-                    aria-haspopup="true"
-                    aria-expanded="false"
-                  >
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  </button>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="#">north</a>
-                    <a class="dropdown-item" href="#">south</a>
-                    <a class="dropdown-item" href="#">west</a>
-                  </div>
-                </div>
-              </div>
-              <div class="col-1">
-                <label class="text-uppercase">-</label>
+          </h3>
+          <form class="row px-5 py-5 ml-5">
+            <div class="col-2 mr-n4">
+              <label class="text-uppercase">house type:*</label>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="col-1 mr-4">
+              <label class="text-uppercase">country:</label>
+              <div class="btn-group text-capitalize">
                 <button
-                  type="submit"
-                  class="btn text-white text-capitalize c-bg-blue"
+                  type="button"
+                  class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
                 >
-                  search
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </button>
-              </div>
-              <div class="col-2">
-                <button
-                  type="submit"
-                  class="btn btn-warning text-white text-capitalize c-mt-2"
-                >
-                  clear filter
-                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">tr</a>
+                  <a class="dropdown-item" href="#">gr</a>
+                  <a class="dropdown-item" href="#">ge</a>
+                </div>
               </div>
             </div>
+            <div class="col-1 mr-4">
+              <label class="text-uppercase">flat:</label>
+              <div class="btn-group text-capitalize">
+                <button
+                  type="button"
+                  class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">single</a>
+                  <a class="dropdown-item" href="#">doublex</a>
+                  <a class="dropdown-item" href="#">triplex</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 mr-4">
+              <label class="text-uppercase">room:</label>
+              <div class="btn-group">
+                <button
+                  type="button"
+                  class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">1 to 5</a>
+                  <a class="dropdown-item" href="#">5 to 10</a>
+                  <a class="dropdown-item" href="#">10+</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 mr-4">
+              <label class="text-uppercase">facilities:</label>
+              <div class="btn-group text-capitalize">
+                <button
+                  type="button"
+                  class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">terrace</a>
+                  <a class="dropdown-item" href="#">pool</a>
+                  <a class="dropdown-item" href="#">garage</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-1 mr-4">
+              <label class="text-uppercase">state:</label>
+              <div class="btn-group text-capitalize">
+                <button
+                  type="button"
+                  class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item" href="#">north</a>
+                  <a class="dropdown-item" href="#">south</a>
+                  <a class="dropdown-item" href="#">west</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-1">
+              <label class="text-uppercase">-</label>
+              <button
+                type="submit"
+                class="btn text-white text-capitalize c-bg-blue"
+              >
+                search
+              </button>
+            </div>
+            <div class="col-2 ml-2">
+              <button
+                type="submit"
+                class="btn btn-warning text-white text-capitalize c-mt-2"
+              >
+                clear filter
+              </button>
+            </div>
           </form>
+        </div>
+      </div>
+      <div
+        class="col-12 d-flex flex-column align-items-center justify-content-center"
+      >
+        <h1 class="mb-5">search results found 7 house(s).</h1>
+        <div class="card-deck">
+          <div class="card text-white">
+            <img
+              class="card-img-top p-2 h-50"
+              src="images/design.png"
+              alt="Card image cap"
+            />
+            <div class="card-body c-bg-secondary">
+              <h5 class="card-title text-capitalize">design house</h5>
+              <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum
+                nesciunt aspernatur voluptates, laboriosam voluptas hic. Velit
+                distinctio, ut quia optio consectetur vel rerum nesciunt commodi
+                repellat itaque ipsam maiores temporibus?
+              </p>
+              <p class="card-text">
+                <small class="text-capitalize">Last updated 1 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card text-white">
+            <img
+              class="card-img-top p-2 h-50"
+              src="images/country-house.png"
+              alt="Card image cap"
+            />
+            <div class="card-body c-bg-secondary">
+              <h5 class="card-title text-capitalize">country house</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Deleniti neque voluptatem maiores minima ab vitae eveniet
+                mollitia, consequuntur enim culpa amet blanditiis, repudiandae
+                pariatur id officia, voluptatibus perferendis autem illo?
+              </p>
+              <p class="card-text">
+                <small class="text-capitalize">Last updated 5 mins ago</small>
+              </p>
+            </div>
+          </div>
+          <div class="card text-white">
+            <img
+              class="card-img-top h-50"
+              src="images/modern-country-house.png"
+              alt="Card image cap"
+            />
+            <div class="card-body c-bg-secondary">
+              <h5 class="card-title text-capitalize">modern country house</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus odit assumenda quam iure accusamus perferendis
+                cupiditate, vel laboriosam, saepe sed sit quasi cumque ducimus
+                neque vitae fugit! In, nobis dolorem?
+              </p>
+              <p class="card-text">
+                <small class="text-capitalize">Last updated 6 mins ago</small>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </main>

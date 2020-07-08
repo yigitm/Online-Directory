@@ -22,7 +22,7 @@
   <body>
     <header class="row c-bg-primary">
       <div
-        class="col-12 col-md-6 d-block text-center text-md-left c-font-sm-3 c-font-md-2"
+        class="col-12 col-md-6 d-block text-center text-md-left text-decoration-none c-font-sm-3 c-font-md-2"
       >
         <a href="index.html">
           <img
@@ -32,7 +32,7 @@
           />
         </a>
 
-        <a class="text-center text-decoration-none text-white" href="index.html"
+        <a class="text-center text-white" href="index.html"
           ><span class="c-font-2 c-font-md-2">rental</span></a
         >
       </div>
@@ -176,12 +176,12 @@
             </div>
             <div class="col-1">
               <label class="text-uppercase">-</label>
-              <button
-                type="submit"
+              <a
+                href="#search-result"
                 class="btn text-white text-capitalize c-bg-blue"
               >
                 search
-              </button>
+              </a>
             </div>
             <div class="col-2 ml-2">
               <button
@@ -197,7 +197,9 @@
       <aside
         class="col-12 d-flex flex-column align-items-center justify-content-center"
       >
-        <h1 class="mb-5">search results found 7 house(s).</h1>
+        <h1 class="mb-5 text-muted" id="search-result">
+          search results found 7 house(s).
+        </h1>
         <div class="card-deck">
           <div class="card text-white">
             <img

@@ -11,6 +11,10 @@ body {
 }
 
 /* section specific styles */
+a > span {
+  text-decoration: none;
+}
+
 .c-bg-light-opacity-07,
 .c-bg-light-opacity-1 {
   filter: alpha(opacity=50%);
@@ -157,10 +161,6 @@ body {
 
 .c-opacity {
   opacity: 0.7;
-}
-
-.c-visited:focus {
-  display: none;
 }
 
 .c-effect:hover {

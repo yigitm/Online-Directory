@@ -31,6 +31,14 @@ body {
   background-attachment: fixed;
 }
 
+.c-bg-card {
+  height: 10rem;
+  background-image: url(images/rental.svg);
+  background-size: cover;
+  background-position: center top 3%;
+  background-repeat: no-repeat;
+}
+
 .c-footer-top {
   display: flex;
   flex-wrap: wrap;
@@ -60,7 +68,7 @@ body {
 }
 
 .c-bg-secondary {
-  background-color: #e49c64;
+  background-color: #e48864;
 }
 
 .c-bg-dark {
@@ -68,11 +76,11 @@ body {
 }
 
 .c-bg-gray {
-  background-color: #c9c0c0;
+  background-color: #afa6a6;
 }
 
 .c-bg-blue {
-  background-color: #90afd8;
+  background-color: #6193d4;
 }
 
 .c-color-primary {
@@ -93,6 +101,10 @@ body {
 
 .c-w-30 {
   width: 30%;
+}
+
+.c-w-40 {
+  width: 40%;
 }
 
 .c-w-90 {
@@ -159,6 +171,10 @@ body {
 
   .c-w-15 {
     width: 20%;
+  }
+
+  .c-w-md-18 {
+    width: 18%;
   }
 
   .c-md-m-0 {

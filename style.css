@@ -11,11 +11,18 @@ body {
 }
 
 /* section specific styles */
-
-.c-bg-light-opacity {
-  opacity: 0.7;
+.c-bg-light-opacity-07,
+.c-bg-light-opacity-1 {
   filter: alpha(opacity=50%);
   background-color: rgb(247, 243, 243);
+}
+
+.c-bg-light-opacity-07 {
+  opacity: 0.7;
+}
+
+.c-bg-light-opacity-1 {
+  opacity: 1;
 }
 
 .c-bg-cover {
@@ -115,6 +122,10 @@ body {
   margin-top: 1rem;
 }
 
+.c-mt-2 {
+  margin-top: 2rem;
+}
+
 .c-p-1 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -146,6 +157,10 @@ body {
 
 .c-opacity {
   opacity: 0.7;
+}
+
+.c-visited:focus {
+  display: none;
 }
 
 .c-effect:hover {

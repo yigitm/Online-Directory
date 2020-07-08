@@ -63,158 +63,137 @@
       </nav>
     </header>
 
-    <div class="row c-bg-cover">
+    <main class="row bg-white min-vh-100">
       <div
-        class="col-12 d-flex flex-column align-items-center justify-content-center"
+        class="col-12 d-flex flex-column align-items-start justify-content-start c-bg-light-opacity-1"
       >
-        <h1 class="text-center text-white text-wrap font-weight-bolder">
-          <span class="">rental</span>
-          <i class="fas fa-laptop-house"></i>
-          <span class=""
-            >shortcut <br class="d-sm-none" />to your new house.</span
-          >
-        </h1>
-
-        <div
-          class="h-25 mx-auto position-relative rounded c-w-90 c-bg-light-opacity-07"
-        ></div>
-        <div class="w-75 rounded position-absolute c-mt-1 c-md-m-0">
-          <h5 class="text-uppercase">search by keyword:</h5>
-          <div class="row input-lg d-md-flex">
-            <input type="text" class="col-12 col-md-10 form-control" />
-            <a
-              class="col-12 col-md-2 btn btn-md text-white text-capitalize c-bg-btn-search c-bg-primary c-mt-1 c-md-mt-0"
-              href="search.html"
-              >search</a
-            >
-          </div>
-        </div>
-
-        <a
-          href="#how-it-works"
-          class="btn btn-md mt-3 text-center text-capitalize c-w-btn c-bg-light-opacity"
-        >
-          how it works
-        </a>
-      </div>
-    </div>
-
-    <article class="row" id="how-it-works">
-      <h2
-        class="col-12 my-5 display-5 text-uppercase text-center c-color-primary"
-      >
-        rent house in four simple steps
-      </h2>
-      <section class="col-12 col-md-6 c-effect-1">
-        <div class="card-deck text-center">
-          <div class="card-body">
-            <i class="fas fa-search-plus c-font-4"></i>
-            <h2 class="card-title text-uppercase">1. search</h2>
-            <p class="card-text h5 p-3">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus
-              sapiente aliquid dolor atque? Molestiae consequatur rem
-              repellendus aliquid quod! Nulla, neque. Vero aspernatur, ad
-              deleniti quidem non id nesciunt unde?
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="col-12 col-md-6 c-effect-1">
-        <div class="card-deck text-center">
-          <div class="card-body">
-            <i class="fas fa-map-marked-alt"></i>
-            <h2 class="card-title text-uppercase">2. locate</h2>
-            <p class="card-text h5 p-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, neque
-              distinctio? Nisi minus itaque molestiae! Iusto obcaecati,
-              blanditiis deserunt assumenda quae soluta animi ut perspiciatis
-              officiis ex, veniam, incidunt deleniti.
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="col-12 col-md-6 c-effect-1">
-        <div class="card-deck text-center">
-          <div class="card-body">
-            <i class="fas fa-laptop-house"></i>
-            <h2 class="card-title text-uppercase">3. rent</h2>
-            <p class="card-text h5 p-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
-              laboriosam voluptate dicta quidem, vitae beatae temporibus nihil
-              doloremque, magnam distinctio minima expedita fugit rerum ea
-              exercitationem! A accusantium distinctio aliquam?
-            </p>
-          </div>
-        </div>
-      </section>
-      <section class="col-12 col-md-6 c-effect-1">
-        <div class="card-deck text-center">
-          <div class="card-body">
-            <i class="fas fa-truck-loading"></i>
-            <h2 class="card-title text-uppercase">4. move</h2>
-            <p class="card-text h5 p-3">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              necessitatibus exercitationem rem reprehenderit distinctio ducimus
-              odio temporibus nostrum minus at? Doloremque exercitationem vitae
-              aliquam excepturi dolorem pariatur cumque obcaecati voluptatibus.
-            </p>
-          </div>
-        </div>
-      </section>
-    </article>
-
-    <article class="row">
-      <div class="col-12 c-bg-secondary c-effect">
-        <div class="media align-items-center">
-          <div class="media-body text-left my-5 mx-2 c-bg-secondary">
-            <h2 class="text-capitalize">
-              over 10.000 <i class="fas fa-sort-amount-up"></i> registered house
-            </h2>
-            <h4 class="text-capitalize">
-              find rental house with rental search engine
-            </h4>
-            <a href="#" class="btn btn-sm btn-light">find house</a>
-          </div>
-          <img
-            src="images/pin.png"
-            class="rounded-circle c-w-40 c-w-md-18 c-bg-dark"
-            alt="image"
-          />
-        </div>
-      </div>
-      <div class="col-12 c-bg-gray c-effect">
-        <div class="media align-items-center">
-          <div class="media-body text-left my-5 mx-2">
-            <h2 class="text-capitalize">
-              no need to visit real estate agencies
-            </h2>
-            <h4 class="text-capitalize">
-              find rental house with rental search engine
-            </h4>
-            <a href="#" class="btn btn-sm btn-light">find house near you</a>
-          </div>
-          <img
-            src="images/real-estate.png"
-            class="rounded-circle c-w-40 c-w-md-18"
-            alt="image"
-          />
+        <div class="py-5 px-0 mt-5">
+          <h5 class="text-center text-uppercase">
+            filter by house type, flat, room, neighbourhood, state, country:
+          </h5>
+          <form class="px-5 py-5">
+            <div class="row">
+              <div class="col-2 mr-n4">
+                <label class="text-uppercase">house type:*</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="col-1 mr-3">
+                <label class="text-uppercase">country:</label>
+                <div class="btn-group text-capitalize">
+                  <button
+                    type="button"
+                    class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">tr</a>
+                    <a class="dropdown-item" href="#">gr</a>
+                    <a class="dropdown-item" href="#">ge</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1 mr-3">
+                <label class="text-uppercase">flat:</label>
+                <div class="btn-group text-capitalize">
+                  <button
+                    type="button"
+                    class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">single</a>
+                    <a class="dropdown-item" href="#">doublex</a>
+                    <a class="dropdown-item" href="#">triplex</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1 mr-3">
+                <label class="text-uppercase">room:</label>
+                <div class="btn-group">
+                  <button
+                    type="button"
+                    class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">1 to 5</a>
+                    <a class="dropdown-item" href="#">5 to 10</a>
+                    <a class="dropdown-item" href="#">10+</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1 mr-3">
+                <label class="text-uppercase">facilities:</label>
+                <div class="btn-group text-capitalize">
+                  <button
+                    type="button"
+                    class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">terrace</a>
+                    <a class="dropdown-item" href="#">pool</a>
+                    <a class="dropdown-item" href="#">garage</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1 mr-4">
+                <label class="text-uppercase">state:</label>
+                <div class="btn-group text-capitalize">
+                  <button
+                    type="button"
+                    class="text-justify btn btn-outline-light active bg-white border dropdown-toggle"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">north</a>
+                    <a class="dropdown-item" href="#">south</a>
+                    <a class="dropdown-item" href="#">west</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-1">
+                <label class="text-uppercase">-</label>
+                <button
+                  type="submit"
+                  class="btn text-white text-capitalize c-bg-blue"
+                >
+                  search
+                </button>
+              </div>
+              <div class="col-2">
+                <button
+                  type="submit"
+                  class="btn btn-warning text-white text-capitalize c-mt-2"
+                >
+                  clear filter
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </div>
-      <div class="col-12 c-bg-blue c-effect">
-        <div class="media align-items-center">
-          <div class="media-body text-left my-5 mx-2">
-            <h2 class="text-capitalize">
-              anytime anywhere
-            </h2>
-            <h4 class="text-capitalize">
-              all in one user experience. compatiple with all mobile devices
-              wish to use
-            </h4>
-          </div>
-          <div class="c-bg-card c-bg-blue c-w-40 c-w-md-18 mh-100"></div>
-        </div>
-      </div>
-    </article>
+    </main>
 
     <footer class="row c-bg-dark">
       <div

@@ -11,10 +11,6 @@ body {
 }
 
 /* section specific styles */
-div > span {
-  text-decoration: none;
-}
-
 .c-bg-light-opacity-07,
 .c-bg-light-opacity-1 {
   filter: alpha(opacity=50%);

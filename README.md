@@ -6,17 +6,18 @@ This project consists of building a mobile first design web site of an [Online D
 
 ![Project Design](images/responsive-design.svg)
 
-The goal is to make a mobile first, responsive web site inspiring from the design by Mathew Njuguna and others on Behance.
+The goal is to make a mobile first, responsive web site inspired by the design of Mathew Njuguna and others on Behance.
 
-You can check the design from this [link](https://www.behance.net/gallery/25563385/PatashuleKE)
+You can check the original design from this [link](https://www.behance.net/gallery/25563385/PatashuleKE)
 
-This landing page is designed & built with a combination of Bootstrap 4 framework and HTML & CSS features.
+Site pages are designed & built with a combination of Bootstrap 4 framework and HTML & CSS features.
 
 ## Main Concepts :
 
 - This project covers the following Bootstrap 4, HTML and CSS3 concepts.
 - Main responsive layout is created with Bootstrap.
 - Except the "footer-top" section; I focused to use Bootstrap 4 CSS classes.
+- CSS styles are sectioned & all styles start with "c" letter refers to custom one.
 - Media Queries are used for reponsive design layout.
 - Fixed, relative, absolute positionings are used for some positioning needs.
 
@@ -26,7 +27,6 @@ This landing page is designed & built with a combination of Bootstrap 4 framewor
 - HTML
 - CSS
 - Font awesome
-- Google Fonts
 
 ## Live Demo :
 

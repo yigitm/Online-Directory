@@ -126,10 +126,6 @@ body {
   margin-top: 1rem;
 }
 
-.c-mt-2 {
-  margin-top: 2rem;
-}
-
 .c-p-1 {
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -182,6 +178,10 @@ body {
 
   .c-bg-btn-search {
     background-color: #90afd8;
+  }
+
+  .c-w-115 {
+    width: 115%;
   }
 
   .c-w-15 {

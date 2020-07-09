@@ -68,19 +68,19 @@
 
     <main class="row min-vh-100 mb-5 bg-white ">
       <aside
-        class="col-12 d-flex flex-column align-items-start justify-content-start mt-5 mb-5 c-bg-light-opacity-1"
+        class="col-12 d-flex flex-column align-items-center justify-content-center mt-5 mb-5 c-bg-light-opacity-1"
       >
         <section class="p-0 mt-5">
           <h3 class="text-center text-capitalize text-muted">
             filter by house type, flat, room, neighbourhood, state, country:
           </h3>
-          <form class="row px-5 py-5 ml-5">
-            <div class="col-2 mr-n4">
-              <label class="text-uppercase">house type:*</label>
-              <input type="text" class="form-control" />
+          <form class="form-row px-5 py-5 d-inline text-center d-md-flex">
+            <div class="col-12 col-md-2 mr-3">
+              <small class="text-uppercase text-nowrap">house type:*</small>
+              <input type="text" class="form-control mx-auto c-w-40 c-w-115" />
             </div>
-            <div class="col-1 mr-4">
-              <label class="text-uppercase">country:</label>
+            <div class="col-12 col-md-1 mr-4">
+              <small class="text-uppercase">country:</small>
               <div class="btn-group text-capitalize">
                 <button
                   type="button"
@@ -98,8 +98,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-1 mr-4">
-              <label class="text-uppercase">flat:</label>
+            <div class="col-12 col-md-1 mr-4">
+              <small class="text-uppercase">flat:</small>
               <div class="btn-group text-capitalize">
                 <button
                   type="button"
@@ -117,8 +117,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-1 mr-4">
-              <label class="text-uppercase">room:</label>
+            <div class="col-12 col-md-1 mr-4">
+              <small class="text-uppercase">room:</small>
               <div class="btn-group">
                 <button
                   type="button"
@@ -136,8 +136,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-1 mr-4">
-              <label class="text-uppercase">facilities:</label>
+            <div class="col-12 col-md-1 mr-4">
+              <small class="text-uppercase">facilities:</small>
               <div class="btn-group text-capitalize">
                 <button
                   type="button"
@@ -155,8 +155,8 @@
                 </div>
               </div>
             </div>
-            <div class="col-1 mr-4">
-              <label class="text-uppercase">state:</label>
+            <div class="col-12 col-md-1 mr-4">
+              <small class="text-uppercase">state:</small>
               <div class="btn-group text-capitalize">
                 <button
                   type="button"
@@ -174,22 +174,19 @@
                 </div>
               </div>
             </div>
-            <div class="col-1">
-              <label class="text-uppercase">-</label>
-              <a
-                href="#search-result"
-                class="btn text-white text-capitalize c-bg-blue"
-              >
-                search
-              </a>
-            </div>
-            <div class="col-2 ml-2">
-              <button
-                type="submit"
-                class="btn btn-warning text-white text-capitalize c-mt-2"
-              >
-                clear filter
-              </button>
+            <div class="col-12 col-md-3">
+              <div class="btn-group mt-4">
+                <a
+                  href="#search-result"
+                  class="btn text-white text-capitalize c-bg-blue"
+                  >search</a
+                >
+                <a
+                  type="button"
+                  class="btn btn-warning rounded-right text-white text-capitalize text-nowrap"
+                  >clear filter</a
+                >
+              </div>
             </div>
           </form>
         </section>

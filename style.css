@@ -27,7 +27,8 @@ body {
 
 .c-bg-cover {
   min-height: 100vh;
-  background-image: linear-gradient(
+  background-image:
+    linear-gradient(
       rgba(47, 56, 63, 0.747),
       rgba(233, 101, 215, 0.356)
     ),
@@ -68,6 +69,7 @@ body {
 .fa-map-marker-alt {
   font-size: 2rem;
 }
+
 /* global use styles */
 .c-bg-primary,
 .c-bg-btn-search {

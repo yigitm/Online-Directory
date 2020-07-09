@@ -30,7 +30,7 @@ Site pages are designed & built with a combination of Bootstrap 4 framework and 
 
 ## Live Demo :
 
-[Project Live Link](https://raw.githack.com/yigitm/Online-Directory/feature-landing-page/index.html)
+[Project Live Link](https://yigitm.github.io/Online-Directory/)
 
 ## Getting Started
 

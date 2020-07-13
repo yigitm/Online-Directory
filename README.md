@@ -1,6 +1,6 @@
 ## PROJECT: ONLINE DIRECTORY
 
-This project consists of building a mobile first design web site of an [Online Directory](https://raw.githack.com/yigitm/Online-Directory/feature-landing-page/index.html) with HTML, CSS-3 & Bootstrap 4.
+This project consists of building a mobile first design web site of an [Online Directory](https://yigitm.github.io/Online-Directory/search-result.html) with HTML, CSS-3 & Bootstrap 4.
 
 ## Project Design:
 
